@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="40dp"
+    android:background="@color/colorToolbar">
+
+
+    <RadioButton
+        android:id="@+id/sim1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:buttonTint="@color/colorWhite"
+        android:text="Sim 1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+
+    <RadioButton
+        android:id="@+id/sim2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@id/sim1"
+        android:buttonTint="@color/colorWhite"
+        android:text="Sim 2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

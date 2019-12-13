@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MultiSimSelection</string>
+    <string name="make_call">Make Call</string>
+    <string name="multiple_sim_selector">Multiple Sim Selector</string>
+</resources>
